@@ -4,7 +4,6 @@ on:
   pull_request:
     types: [labeled]
 
-
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   AZURE_RESOURCE_GROUP: cd-with-actions
@@ -13,7 +12,7 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  AZURE_WEBAPP_NAME: <username>-ttt-app
+  AZURE_WEBAPP_NAME: Ganesh0412-ttt-app
 
 jobs:
   setup-up-azure-resources:
